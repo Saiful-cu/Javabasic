@@ -11,7 +11,7 @@ public class Donkey extends Animal {
 
     @Override
     public void printInfo() {
-        String donkeyWithName = String.format("Donkey with name {name} : age{age}, weight{weight}", name, age, weight);
+        String donkeyWithName = String.format("Donkey with name  " + name + " age " + age + " weight " + weight);
         System.out.println(donkeyWithName);
     }
 }
