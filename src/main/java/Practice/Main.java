@@ -32,7 +32,10 @@ public class Main {
 
         Animal animal = new Cat();
         animal.eat();
-        
+
+
+        IndefiniteParameter indefiniteParameter = new IndefiniteParameter();
+        indefiniteParameter.printNumber(1, 2, 3, 7);
 
     }
 
